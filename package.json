@@ -1,0 +1,21 @@
+{
+  "name": "flickr-tag-geotag-crawler",
+  "version": "0.0.1",
+  "description": "",
+  "main": "flickr.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cluster": "~0.7.7",
+    "cron": "~1.0.9",
+    "flickrapi": "~0.3.32",
+    "mongodb": "~2.0.33"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Shohei Yokoyama",
+  "license": "MIT License"
+}
